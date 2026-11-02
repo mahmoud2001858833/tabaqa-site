@@ -1,0 +1,4 @@
+{
+  "rewrites": [{ "source": "/api/groq/:path*", "destination": "/api/groq?path=:path*" }],
+  "functions": { "api/groq.js": { "maxDuration": 60 } }
+}
